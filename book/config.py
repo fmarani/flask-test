@@ -49,7 +49,7 @@ class DockerDevConfig(Config):
     """
 
     SQLALCHEMY_DATABASE_URI = (
-        "postgresql://testusr:password@postgres/testdb"
+        "postgresql://postgres:postgres@postgres/bookex"
     )  # hard coded URL, assuming you are using the docker-compose setup
     DEBUG = True
 
